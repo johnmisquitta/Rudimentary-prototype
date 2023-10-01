@@ -9,7 +9,7 @@ Comparative Analysis of Audio Transcription and Word Occurrence Detection
 ## The audio is converted in wav format and transcribed to txt
 ![Nutrition2 Screenshot](screenshot/r2.png)
 
-## S3
+## perhaps there is some memory issue while hosting this project live on render there are some memory limitation on the free version
 ![Nutrition2 Screenshot](screenshot/r3.png)
 
 
