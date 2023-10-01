@@ -1,1 +1,1 @@
-gunicorn --timeout 120 app:app
+gunicorn --timeout 1200 app:app
