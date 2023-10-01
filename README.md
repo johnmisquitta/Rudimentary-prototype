@@ -9,6 +9,9 @@ Comparative Analysis of Audio Transcription and Word Occurrence Detection
 ## S2
 ![Nutrition2 Screenshot](screenshot/r2.png)
 
+## S3
+![Nutrition2 Screenshot](screenshot/r3.png)
+
 
 
 
