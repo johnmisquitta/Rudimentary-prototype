@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... (your existing code) ... -->
+</head>
+<body>
+    <h1>Upload an Audio File</h1>
+    <p style="color: red;">* Note: Please rename the file to 'sample.mp3'<br>1 minute of audio requires 45 seconds to process.<br>Please make sure your audio file is not too lengthy and below [10 Mb].<br>Click the upload button only once and be patient, letting the code process its work. Do not click multiple times.</p>
+
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" name="file" accept=".mp3, .wav, .ogg, .flac" required>
+        <br><br>
+        <label for="search_word">Enter a word to count:</label>
+        <input type="text" id="search_word" name="search_word">
+        <br><br>
+        <progress id="upload-progress" value="0" max="100"></progress>
+        <br>
+        <span id="progress-text">0%</span>
+        <br><br>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if message %}
+    <p>{{ message }}</p>
+    <p>{{ message1 }}</p>
+    <p>{{ word_count }}</p>
+    {% endif %}
+
+    <script>
+        // JavaScript code to increase progress to 3% after message1 is printed
+        document.addEventListener("DOMContentLoaded", function () {
+            // Assuming message1 is already displayed
+            const progressBar = document.getElementById("upload-progress");
+            const progressText = document.getElementById("progress-text");
+
+            // Increase the progress to 5%
+            progressBar.value = 5;
+            progressText.textContent = "5%";
+        });
+    </script>
+</body>
+</html>
 
