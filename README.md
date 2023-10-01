@@ -2,11 +2,11 @@
 
 Comparative Analysis of Audio Transcription and Word Occurrence Detection
 
-## S1
+## This page is used to upload audio file and enter word we want to search in audio and counts the occurance of that word
 ![Nutrition1 Screenshot](screenshot/r1.png)
 
 
-## S2
+## The audio is converted in wav format and transcribed to txt
 ![Nutrition2 Screenshot](screenshot/r2.png)
 
 ## S3
