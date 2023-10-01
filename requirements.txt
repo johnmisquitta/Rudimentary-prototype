@@ -23,6 +23,8 @@ decorator==4.4.2
 defusedxml==0.7.1
 distlib==0.3.6
 distro==1.8.0
+pocketsphinx==5.0.2
+
 
 
 ffmpeg==1.4
